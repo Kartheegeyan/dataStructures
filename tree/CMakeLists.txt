@@ -1,0 +1,3 @@
+add_library(bst_constructor tree_constructor.cpp)
+target_include_directories(bst_constructor PUBLIC include)
+target_link_libraries(bst_constructor PUBLIC dataStruct_utils)

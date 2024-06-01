@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.5.1)
+project(data_structure_and_algorithms LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 14)
+
+## Allows user to decide how to build the library (SHARED OR STATIC)
+set(BUILD_SHARED_LIBS TRUE)
+if(BUILD_SHARED_LIBS)
+    message("BUILD_SHARED_LIBS set to true")
+else()
+    message("BUILD_SHARED_LIBS set to false")
+endif()
+# set(CMAKE_BUILD_TYPE Debug)
+include(GNUInstallDirs)
+
+add_subdirectory(utils)
+add_subdirectory(linkedList)
+add_subdirectory(doublyLinkedList)
+add_subdirectory(stack)
+add_subdirectory(queue)
+add_subdirectory(tree)
+add_subdirectory(hashTable)
+add_subdirectory(sample)

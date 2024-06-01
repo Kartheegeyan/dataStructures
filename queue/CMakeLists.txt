@@ -1,0 +1,2 @@
+add_executable(queue_construct queue_constructor.cpp)
+target_link_libraries(queue_construct PRIVATE dataStruct_utils)

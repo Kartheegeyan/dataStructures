@@ -1,0 +1,3 @@
+add_executable(stack_constructor stack_constructor.cpp)
+
+target_link_libraries(stack_constructor PRIVATE dataStruct_utils)
