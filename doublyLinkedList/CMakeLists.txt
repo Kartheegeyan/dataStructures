@@ -1,4 +1,4 @@
-add_library(dll_constructor dll_constuctor.cpp)
+add_library(dll_constructor STATIC dll_constuctor.cpp)
 target_include_directories(dll_constructor PUBLIC include)
 
 target_link_libraries(dll_constructor PUBLIC dataStruct_utils)
