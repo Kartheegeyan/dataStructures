@@ -1,0 +1,3 @@
+add_executable(hashTable hashTable_constructor.cpp)
+target_include_directories(hashTable PRIVATE include)
+target_link_libraries(hashTable PRIVATE dataStruct_utils)
