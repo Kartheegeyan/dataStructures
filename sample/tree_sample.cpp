@@ -1,5 +1,5 @@
 #include <iostream>
-#include <tree_constructor.h>
+#include <tree.h>
 
 int main(int argc, char **argv)
 {

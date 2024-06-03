@@ -1,6 +1,7 @@
 #ifndef BINARYSEARCHTREE_H
 #define BINARYSEARCHTREE_H
 
+#include <iostream>
 #include "bst_node.h"
 
 class BinarySearchTree

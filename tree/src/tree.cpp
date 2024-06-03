@@ -1,5 +1,4 @@
-#include <iostream>
-#include "tree_constructor.h"
+#include "tree.h"
 
 BinarySearchTree::BinarySearchTree()
 {

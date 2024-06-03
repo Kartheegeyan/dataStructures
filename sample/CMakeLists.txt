@@ -7,5 +7,11 @@ target_link_libraries(dll_sample PUBLIC dll_constructor)
 add_executable(linked_list_sample ll_sample.cpp)
 target_link_libraries(linked_list_sample PUBLIC ll_constructor)
 
-# add_executable(dll_sample dll_sample.cpp)
-# target_link_libraries(dll_sample PUBLIC dll_constructor)
+add_executable(queue_sample queue_sample.cpp)
+target_link_libraries(queue_sample PUBLIC queue_construct)
+
+add_executable(stack_sample stack_sample.cpp)
+target_link_libraries(stack_sample PUBLIC stack_constructor)
+
+add_executable(hashTable_sample hashTable_sample.cpp)
+target_link_libraries(hashTable_sample PUBLIC hashTable)
