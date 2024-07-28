@@ -1,17 +1,12 @@
 #include "bst_node.h"
 
-Node::Node(int value_)
-{
-    this->value = value_;
-    left, right = nullptr;
+using namespace bst;
+
+Node::Node(int value_) {
+  this->value = value_;
+  left, right = nullptr;
 }
 
-int Node::getValue()
-{
-    return value;
-}
+int Node::getValue() { return this->value; }
 
-void Node::setValue(int value_)
-{
-    this->value = value_;
-}
+void Node::setValue(int value_) { this->value = value_; }

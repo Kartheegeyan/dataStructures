@@ -1,6 +1,8 @@
 #ifndef BST_NODE_H
 #define BST_NODE_H
 
+namespace bst
+{
 class Node
 {
 private:
@@ -12,5 +14,6 @@ public:
     int getValue();
     void setValue(int value_);
 };
+} // namespace bst
 
 #endif // BST_NODE_H

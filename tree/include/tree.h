@@ -4,18 +4,19 @@
 #include <iostream>
 #include "bst_node.h"
 
-class BinarySearchTree
-{
-private:
-    Node * root;
-public:
-    int size;
-    BinarySearchTree();
-    BinarySearchTree(int value);
-    Node * getRoot();
-    int getRootValue();
-    bool insert(int value);
-    bool contains(int value_);
+class BinarySearchTree {
+ private:
+  bst::Node* root;
+
+ public:
+  int size;
+  BinarySearchTree();
+  BinarySearchTree(int value);
+  bst::Node* getRoot();
+  int getRootValue();
+  bool insert(int value);
+  bool contains(int value_);
+  void displayTree();
 };
 
-#endif // BINARYSEARCHTREE_H
+#endif  // BINARYSEARCHTREE_H

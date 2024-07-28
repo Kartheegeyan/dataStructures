@@ -6,7 +6,10 @@ int main()
     Queue * newQueue = new Queue(1);
     newQueue->enqueue(2);
     newQueue->enqueue(3);
-    // newQueue->dequeue();
+    newQueue->printQueue();
+
+    std::cout << "--------- After Dequeue ---------" << std::endl;
+    newQueue->dequeue();
     // newQueue->dequeue();
     
     newQueue->printQueue();
