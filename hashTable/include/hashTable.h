@@ -1,6 +1,7 @@
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 
+#include <iostream>
 #include <vector>
 #include "hashTable_node.h"
 

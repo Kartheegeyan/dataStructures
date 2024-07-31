@@ -1,4 +1,4 @@
-add_library(ll_constructor STATIC src/linkedList_constructor.cpp)
+add_library(ll_constructor STATIC src/linkedList.cpp)
 target_include_directories(ll_constructor PUBLIC include)
 target_link_libraries(ll_constructor PUBLIC dataStruct_utils)
 

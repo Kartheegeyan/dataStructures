@@ -1,2 +1,3 @@
-add_executable(queue_construct queue_constructor.cpp)
-target_link_libraries(queue_construct PRIVATE dataStruct_utils)
+add_library(queue_construct STATIC src/queue.cpp)
+target_include_directories(queue_construct PUBLIC include)
+target_link_libraries(queue_construct PUBLIC dataStruct_utils)

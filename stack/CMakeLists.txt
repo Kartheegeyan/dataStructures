@@ -1,3 +1,3 @@
-add_executable(stack_constructor stack_constructor.cpp)
-
-target_link_libraries(stack_constructor PRIVATE dataStruct_utils)
+add_library(stack_constructor STATIC src/stack.cpp)
+target_include_directories(stack_constructor PUBLIC include)
+target_link_libraries(stack_constructor PUBLIC dataStruct_utils)

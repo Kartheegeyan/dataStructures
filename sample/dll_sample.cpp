@@ -7,6 +7,7 @@ int main()
     newDll->append(2);
     newDll->append(3);
     newDll->append(4);
+    newDll->prepend(0);
     // newDll->deleteNode(5);
 
     newDll->getHead();

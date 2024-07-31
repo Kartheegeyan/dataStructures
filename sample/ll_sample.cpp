@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <linkedList_constructor.h>
+#include <linkedList.h>
 
 using namespace std;
 
